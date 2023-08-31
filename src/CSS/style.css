@@ -1,0 +1,85 @@
+body {
+    background-color: hsl(218, 23%, 16%);
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background .card {
+    background-color: hsl(217, 19%, 24%);
+    height: 300px;
+    width: 450px;
+    border-radius: 20px;
+    font-family: 'Manrope', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    height: fit-content;
+    margin: 30px 30px 30px 30px;
+}
+
+.card .advice-number {
+    text-transform: uppercase;
+    color: hsl(150, 100%, 66%);
+    font-size: 13px;
+    letter-spacing: 3px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.card .advice {
+    box-sizing: border-box;
+    text-align: center;
+    color: hsl(193, 38%, 86%);
+    font-weight: 800;
+    font-size: 23px;
+}
+
+.card .divisor {
+    box-sizing: border-box;
+    border-top: solid 1px hsl(193, 38%, 86%);
+    height: 1px;
+    width: 80%;
+    margin: 50px;
+    opacity: 0.5;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+
+.card .dice-background {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: hsl(150, 100%, 66%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dice-background .dice-picture {
+    height: 30px;
+}
+@media(max-width:400px){
+    .card .divisor{
+        margin: 30px;
+        
+    }
+}
+@media(max-width:500px){
+    .background .card{
+        width: 90%;
+    }
+    header{
+        margin: 10px;
+    }
+}
