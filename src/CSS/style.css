@@ -1,5 +1,5 @@
 body {
-    background-color: hsl(218, 23%, 16%);
+    background-color: var(--background-color); 
 }
 
 .background {
@@ -9,12 +9,13 @@ body {
 }
 
 .background .card {
-    background-color: hsl(217, 19%, 24%);
+    background-color: var(--advice-card-color);
     height: 300px;
     width: 450px;
     border-radius: 20px;
     font-family: 'Manrope', sans-serif;
     box-sizing: border-box;
+    box-shadow: 0 0px 10px var(--advice-card-color);
 }
 
 header {
@@ -24,7 +25,7 @@ header {
 
 .card .advice-number {
     text-transform: uppercase;
-    color: hsl(150, 100%, 66%);
+    color: var(--advice-dice-color);
     font-size: 13px;
     letter-spacing: 3px;
     box-sizing: border-box;
@@ -36,14 +37,14 @@ header {
 .card .advice {
     box-sizing: border-box;
     text-align: center;
-    color: hsl(193, 38%, 86%);
+    color: var(--text-color);
     font-weight: 800;
     font-size: 23px;
 }
 
 .card .divisor {
     box-sizing: border-box;
-    border-top: solid 1px hsl(193, 38%, 86%);
+    border-top: solid 1px var(--text-color);
     height: 1px;
     width: 80%;
     margin: 50px;
@@ -60,26 +61,16 @@ footer{
     height: 60px;
     width: 60px;
     border-radius: 50%;
-    background-color: hsl(150, 100%, 66%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: var(--advice-dice-color);
+    border: none;
+    cursor: pointer;
 }
 
 .dice-background .dice-picture {
     height: 30px;
 }
-@media(max-width:400px){
-    .card .divisor{
-        margin: 30px;
-        
-    }
-}
-@media(max-width:500px){
-    .background .card{
-        width: 90%;
-    }
-    header{
-        margin: 10px;
-    }
+.dice-background:hover{
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px var(--advice-dice-color);
 }

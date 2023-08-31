@@ -1,0 +1,14 @@
+@media(max-width:400px){
+    .card .divisor{
+        margin: 30px;
+        
+    }
+}
+@media(max-width:500px){
+    .background .card{
+        width: 90%;
+    }
+    header{
+        margin: 10px;
+    }
+}
