@@ -6,9 +6,10 @@ This project was inspired by the FrontEnd Mentor Website. You can find it [here]
 - This was the layout I got inspired by when doing this project. Of Course I changed, but I tried to keep the sintaxe and the measures. 
 
     - Desktop layout
-![Desktop layout](./Advice-generator/src/images/layout%20desktop.png)
+<img src="./src/images/layoutdesktop.png">
     - Mobile layout
-![Mobile layout](./Advice-generator/src/images/layout%20mobile.png)
+<img src="./src/images/layoutmobile.png">
+
 
 ## Tools
 - To finish this project to this day (31/08/2023), I took two to three days to create the HTML, add styles with CSS, get it responsive with media queries, add images, create a README and upload on GitHub, using GIT(cause I'm practicing that too 🤩) 
